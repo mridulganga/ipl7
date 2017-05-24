@@ -1,0 +1,31 @@
+Ladder
+
+Professor Snape has lots of potions. Bottles containing all types of potions are stacked on shelves which cover the entire wall from floor to ceiling. Professor Snape has broken his bones several times while climbing the top shelf for retrieving a potion. He decided to get a ladder for him. But he has no time to visit Diagon Alley. So he instructed Ron Weasley to make a ladder for him. Professor Snape specifically wants a step ladder which looks like an inverted 'V' from side view. Your task is to write a program to print an inverted V shaped ladder given the distance between the left side and right side of the ladder.
+
+Input Format
+An integer 'N' representing the distance of seperation between the left side and right side on the ground
+
+Output Format
+Print the inverted V shaped ladder (Representing it with *)
+
+Constraints:
+1<= N <= 100
+N is always Odd
+
+Sample Input 1
+5
+
+Sample Output 1
+  *  
+ * *  
+*   *
+
+Sample Input 2
+9
+
+Sample Output 2
+    *    
+   * *    
+  *   *  
+ *     * 
+*       *

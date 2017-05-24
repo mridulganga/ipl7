@@ -1,0 +1,34 @@
+Tejas has N rooms in his house, each room is connected to atleast one room. The distance of the direct path between two rooms is given. If there is no direct connection, the distance is represented as 0. For simplicity purpose, Tejas represents this in the form of a matrix. 
+
+For any two rooms, find the probability that the minimum distance between the 2 rooms is even.
+
+Input Format
+First line contains N the number of rooms
+N lines follow, each containg M space seperated integers, specifing the distance between Nth room and Mth room (M=N)
+
+Output format
+Print the probability of having even minimum distance between any two rooms.
+(Print exactly 2 digits after decimal point)
+
+Sample input
+5
+0 2 4 1 0
+2 0 0 0 3
+4 0 0 2 1
+1 0 2 0 0
+0 3 1 0 0
+
+Sample Output
+0.40
+
+Explanation
+Among 5 rooms,there are totally 10 possible minimum distances between any 2 rooms (1 min distance for each connection between any 2 rooms)
+
+4 connections between rooms have even distance
+
+A-B=2
+A-E=4
+B-C=4
+C-D=2
+
+Therefore the probability is 0.40
